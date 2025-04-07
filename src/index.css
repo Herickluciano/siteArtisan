@@ -1,0 +1,562 @@
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.couv {
+ filter: brightness(50%);
+ height: 535px;
+}
+.couv-2 {
+  position: relative;
+  top: -3vh;
+  filter: brightness(50%);
+  
+ }
+ .border {
+ margin:1vh;
+  
+ }
+ .card-bord {
+  position: relative;
+  top: 2vh;
+     background: #a59f9e;
+     width: 50vh;
+     left: -2vh;
+  }
+code {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar {
+    margin: 12px;
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+navBar {
+  display: flex;
+  justify-content: end;
+}
+.affiche{
+  position: relative;
+  top: -54vh;
+  float: left;
+  left: 74vh;
+  color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
+}
+.line{
+  color: blue;
+  width: 100%;
+ 
+}
+.btn{
+  position:relative;
+  background-color: #b71c1c;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 5px;
+  margin: 0 1rem;
+  top: -38vh;
+  float: left;
+  left: 10vh;
+}
+.btn-3{
+  position:relative;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  width: 35%;
+  text-align: center;
+  left: 15vh;
+}
+.cardForm{
+   position: relative;
+   box-shadow: #424949;
+   text-align: center;
+   left: 18vh;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+}
+.card-text{
+  text-align: justify;
+}
+.basSite{
+ background-color:#424949 ;
+}
+.texDetail{
+  padding: 6vh;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+ }
+ .texList{
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+  opacity: 0,4;
+}
+ li{
+  list-style-type: none;
+}
+ul a{
+  list-style-type: none;
+  text-decoration: none;
+  text-align: justify;
+  color: #f0f0f0;
+}
+.detail{
+  position: relative;
+  left: 2vh;
+}
+.style-1{
+  width: 90%;
+}
+.style-2{
+  width: 80%;
+}
+.style-3{
+  width: 70%;
+}
+.style-4{
+  width: 60%;
+}
+.style-5{
+  width: 50%;
+}
+.detailComp{
+  margin: 10px;
+}
+.cardText{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card{
+  background-color: #424949;
+  color: #f0f0f0;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.foot{
+  background-color: #424949;
+  color: #f0f0f0;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.cardlist{
+  text-align: justify;
+  position: relative;
+}
+.card-deplacer{
+  text-align: justify;
+  position: relative;
+  left: 30vh;
+  font-size: 14px;
+}
+.card-deplacer-2{
+  text-align: justify;
+  position: relative;
+  left: 20vh;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.card-deplacer-3{
+  text-align: justify;
+  position: relative;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.sociaux{
+  position: relative;
+  left: 12vh;
+  top: -2vh;
+  width: 30px;
+}
+.recherche{
+  position: relative;
+  width: 25px;
+  left: 22vh;
+}
+.route-24{
+  position: relative;
+  width: 15px;
+}
+.locale-24{
+  position: relative;
+  width: 15px;
+}
+.telephone-24{
+  position: relative;
+  width: 15px;
+}
+.mail-24{
+  position: relative;
+  width: 15px;
+}
+.propriete{
+  visibility: hidden;
+  } 
+
+  form {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+form .nom-prenom {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-flow: row wrap;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+   border-radius: solid 9% rgb(236, 236, 236);
+   box-shadow: #424949;
+   font-size: 14px;
+   font-family: "Nunito Sans", sans-serif;
+   
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    border-radius: solid 9% rgb(236, 236, 236);
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+form .mid {
+    width: 48%;
+}
+
+form .full {
+    width: 100%;
+}
+
+form .submit {
+    width: 150px;
+}
+
+form .send-btn {
+    cursor: pointer;
+    font-weight: bold;
+   
+}
+.map {
+  position: relative;
+  left: 5vh;
+  top: -3vh;
+  width: 470px;
+  height: 300px;
+ 
+}
+.section-3{
+  width: 80%;
+  padding: 0;
+ margin: 0;
+}
+.card-section{
+ position: relative;
+ left: -45;
+ 
+}
+.form-select{
+  margin: 0;
+  
+ } 
+
+/* Styles pour smartphones */
+@media (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
+  .border {
+    margin:1vh;
+     
+    }
+
+  .header, .footer {
+      padding: 15px 0;
+  }
+
+  .main-content {
+      padding: 15px;
+  }
+  .cardForm{
+    position: relative;
+    box-shadow: #424949;
+    text-align: center;
+    left: 0.6vh;
+    top: vh;
+    padding: 0;
+    margin: 0;
+ }
+ .affiche{
+  position: relative;
+  top: -35vh;
+  float: left;
+  left: 2vh;
+  color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.btn{
+  position:relative;
+  background-color: #b71c1c;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 5px;
+  margin: 0 1rem;
+  top: -34vh;
+  float: left;
+  left: 20vh;
+ 
+}
+.propriete{
+  position:relative;
+  top: 4vh;
+  font-size: 1rem;
+  color: black;
+  font-family: "Nunito Sans", sans-serif;
+}
+.couv {
+  filter: brightness(50%);
+  height: 335px;
+  width: 400px;
+ }
+ .couv-2 {
+  position: relative;
+  top: -3vh;
+  filter: brightness(50%);
+  width: 57vh;
+ }
+ .card{
+  position: relative;
+  left: -15vh;
+  background-color: #424949;
+  color: #f0f0f0;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.card-adresse{
+  position: relative;
+  left: -36vh;
+  top: -3vh;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+.map {
+  position: relative;
+  left: -6vh;
+  top: -3vh;
+  width: 400px;
+  height: 300px;
+ 
+}
+.card-deplacer{
+  text-align: justify;
+  position: relative;
+  left: 30vh;
+  font-size: 14px;
+}
+.card-deplacer-2{
+  text-align: justify;
+  position: relative;
+  left: 30vh;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.card-deplacer-3{
+  text-align: justify;
+  position: relative;
+  left: 30vh;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.sociaux{
+  position: relative;
+  left: 17vh;
+  width: 30px;
+}
+.section-3{
+  width: 80%;
+  padding: 0;
+ margin: 0;
+}
+.card-section{
+ position: relative;
+ left: -45;
+ 
+}
+.form-select{
+  margin: 0;
+  width: 3%;
+ } 
+ option{
+  width: 3%;
+  font-size: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  
+ } 
+}
+
+/* Styles spécifiques pour les tablettes */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+      background-color: #f0f0f0;
+      font-size: 14px;
+      font-family: "Nunito Sans", sans-serif;
+  }
+  .border {
+    margin:1vh;
+     
+    }
+  .footer {
+      font-size: 1em;
+      text-align: center;
+      padding: 10px;
+  }
+  .cardForm{
+    position: relative;
+    box-shadow: #424949;
+    text-align: center;
+    left: 1.5vh;
+    top: -1vh;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "Nunito Sans", sans-serif;
+ }
+  .affiche{
+    position: relative;
+  top: -32vh;
+  float: left;
+  left: 22vh;
+  color: aliceblue;
+  font-size: 3em;
+  font-family: "Nunito Sans", sans-serif;
+  }
+  .couv-2 {
+    position: relative;
+    top: -2vh;
+    filter: brightness(50%);
+    
+   }
+
+  .btn{
+    position: absolute;
+    background-color: #b71c1c;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 2rem;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 5px;
+    margin: 0 1rem;
+    top: -18vh;
+    float: left;
+    left: 30vh;
+  }
+  .btn-3{
+     position: relative;
+     width: 13vh;
+     left: 3vh;
+     font-size: 1.8em;
+     font-family: "Nunito Sans", sans-serif;
+  }
+  .card-text{
+  font-size: 1.8em;
+  font-family: "Nunito Sans", sans-serif;
+    }
+    .card-deplacer{
+      text-align: justify;
+      position: relative;
+      left: 2vh;
+      font-size: 14px;
+    }
+    .card-deplacer-2{
+      text-align: justify;
+      position: relative;
+      left: 2vh;
+      font-size: 14px;
+      font-family: "Nunito Sans", sans-serif;
+    }
+    .card-deplacer-3{
+      text-align: justify;
+      position: relative;
+      left: 1vh;
+      font-size: 14px;
+      font-family: "Nunito Sans", sans-serif;
+    }
+    .card-adresse{
+      position: relative;
+      left: -4vh;
+      top: -2vh;
+      font-size: 1rem;
+      font-family: "Nunito Sans", sans-serif;
+    }
+    .map {
+      position: relative;
+      left: -3vh;
+      top: -3vh;
+      width: 400px;
+      height: 300px;
+     
+    }
+    .sociaux{
+      width: 30px;
+    }
+    .propriete{
+    visibility: hidden;
+    }  
+    form {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 14px;
+      font-family: "Nunito Sans", sans-serif;
+  } 
+  .section-3{
+    width: 80%;
+    padding: 0;
+   margin: 0;
+  }
+  .card-section{
+   position: relative;
+   left: -45;
+   
+  }
+  .form-select{
+    margin: 0;
+    width: 3%;
+   } 
+   option{
+    width: 3vh;
+    font-size: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    
+   } 
+}
