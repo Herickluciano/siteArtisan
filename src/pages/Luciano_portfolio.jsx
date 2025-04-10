@@ -9,7 +9,7 @@ const Luciano_portfolio = () => {
             </div> 
             <div className="cardForm container row shadow p-3 mb-5 bg-body rounded col-lg-12 col-md-12 col-sm-12">
             <h5 className="card-title text-center fw-bold">Portfolio</h5>
-            <p className="card-text text-center">Voici quelques un de mes realisation.</p>
+            <p className="info card-text text-center">Voici quelques un de mes realisation.</p>
             <hr className="line"></hr>
            <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
@@ -18,7 +18,7 @@ const Luciano_portfolio = () => {
              <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
-            <p className="card-text text-center card-bord">Site realise avec PHP et MYSQL.</p>
+            <p className="info card-text text-center card-bord">Site realise avec PHP et MYSQL.</p>
             </div>
             </div>
             </div>
@@ -29,7 +29,7 @@ const Luciano_portfolio = () => {
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
-            <p className="card-text text-center card-bord">Site realise avec WordPress.</p>
+            <p className="info card-text text-center card-bord">Site realise avec WordPress.</p>
             </div>
             </div>
             </div>
@@ -40,7 +40,7 @@ const Luciano_portfolio = () => {
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
-            <p className="card-text text-center card-bord">Site realise avec LARAVEL.</p>
+            <p className="info card-text text-center card-bord">Site realise avec LARAVEL.</p>
             </div>
             </div>
             </div>
@@ -51,7 +51,7 @@ const Luciano_portfolio = () => {
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
-            <p className="card-text text-center card-bord">Utilisation des outils SEO.</p>
+            <p className="info card-text text-center card-bord">Utilisation des outils SEO.</p>
             </div>
             </div>
             </div>
@@ -62,7 +62,7 @@ const Luciano_portfolio = () => {
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
-            <p className="card-text text-center card-bord">PHP - SYNFONY.</p>
+            <p className="info card-text text-center card-bord">PHP - SYNFONY.</p>
             </div>
             </div>
             </div>
@@ -71,9 +71,9 @@ const Luciano_portfolio = () => {
             <div className="card-body border border-1">
             <img src="images/portfolio/screens.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
             <h5 className="card-title text-center fw-bold">A propos</h5>
-            <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
+            <p className="info card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info card-center">voici le site</button>
-            <p className="card-text text-center card-bord">Realisation avec FIGMA.</p>
+            <p className="info card-text text-center card-bord">Realisation avec FIGMA.</p>
             </div>
             </div>
             </div>
