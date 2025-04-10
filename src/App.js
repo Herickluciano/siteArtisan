@@ -27,8 +27,8 @@ function App() {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
     <div className="navbar-nav">
       <a href='/' className='nav-link active card-text' aria-current="page">Home</a>
-      <a href='/Luciano_Services ' className='nav-link active card-text'>Services</a>
       <a href='/Luciano_Portfolio' className='nav-link active card-text'>Portfolio</a>
+      <a href='/Luciano_Services' className='nav-link active card-text'>Services</a>
       <a href='/Luciano_Contact' className='nav-link active card-text'>Contact</a>
       <a href='Luciano_mentions_legal1' className='nav-link active card-text'>Mention legales</a>
       </div>
@@ -44,7 +44,7 @@ function App() {
       <Route path='/Luciano_Portfolio' element= {<Luciano_portfolio/>}></Route>
       <Route path='/Luciano_Services' element= {<Luciano_Services/>}></Route>
       </Routes>
-      {/* <button className="btn fw-bold" onClick={() => h()}>En Savoir Plus</button> */}
+      function frr()
     </div>
   );
 }
