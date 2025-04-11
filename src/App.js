@@ -7,9 +7,6 @@ import Luciano_Mentions_legal1 from './pages/Luciano_Mentions_legal1';
 import Luciano_portfolio from './pages/Luciano_portfolio';
 import Luciano_Services from './pages/Luciano_Services';
 
-// function h() {
-//   console.log("Button Clicked");
-// }
 
 
 
@@ -44,7 +41,6 @@ function App() {
       <Route path='/Luciano_Portfolio' element= {<Luciano_portfolio/>}></Route>
       <Route path='/Luciano_Services' element= {<Luciano_Services/>}></Route>
       </Routes>
-      function frr()
     </div>
   );
 }
