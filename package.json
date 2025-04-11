@@ -2,7 +2,7 @@
   "name": "monapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lucianohamilton.github.io/lucianohamilton85/JohnDoe.git",
+  "homepage": "https://lucianohamilton.github.io/Herickluciano/portfolio-app",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
