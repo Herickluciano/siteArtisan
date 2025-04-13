@@ -4,7 +4,7 @@ const Luciano_Mentions_legal1 = () => {
         
         <div>
         <div className="entete col-lg-12 col-md-12 col-sm-12">   
-        <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/banner.jpg?raw=true" className="couv-2 col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
+        <img src="https://github.com/Herickluciano/portfolio/blob/main/public/images/banner.jpg?raw=true" className="couv-2 col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
         </div> 
         <div className="cardForm container row shadow p-3 mb-5 bg-body rounded col-lg-12 col-md-12 col-sm-12">
         <h5 className="card-title text-center fw-bold">Mention legales</h5>
@@ -84,7 +84,6 @@ const Luciano_Mentions_legal1 = () => {
     </div>
     )
 }
-
 
 
 export default Luciano_Mentions_legal1;
