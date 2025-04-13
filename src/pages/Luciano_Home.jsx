@@ -3,10 +3,11 @@ const Luciano_Home = () => {
     return(
         <div>
             <div className="entete col-lg-12 col-md-12 col-sm-12">   
-            <img src="img/hero-bg.jpg" className="couv col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/hero-bg.jpg?raw=true" className="couv col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
             <div className="position-relative bottom-0 start-0">
             <h1 className="affiche  col-lg-6 col-md-6 col-sm-6 text-center">Bonjour, je suis John DOE developpeur full stack</h1>
-            <button className="btn fw-bold card-text">En Savoire plus</button>
+            <button onClick={() => {
+            alert('Bonjour, ce site est en maintenance... merci de nous revenir plutard !');}} className="btn fw-bold card-text">En Savoire plus</button>
             </div>
             </div> 
             <div className="cardForm container row shadow p-3 mb-5 bg-body rounded col-lg-12 col-md-12 col-sm-12">
@@ -15,7 +16,7 @@ const Luciano_Home = () => {
             <div className="card-body">
             <h5 className="card-title text-start fw-bold">A propos</h5>
             <hr className="line"></hr>
-            <img src="images/john-doe-about.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/john-doe-about.jpg?raw=true" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux textes aléatoires. Vous choisissez le nombre de paragraphes, de mots ou de listes.
             Vous obtenez alors un texte aléatoire que vous pourrez ensuite utiliser librement dans vos maquettes.
             exte généré est du pseudo latin et peut donner l'impression d'être du vrai.</p>
@@ -65,7 +66,7 @@ const Luciano_Home = () => {
             </div>
            </div>  
            
-           <footer className=" foot">
+           <footer className="card-foot">
            <div className="card-group">
            <div className="card">
            <div className="card-body">
@@ -79,9 +80,9 @@ const Luciano_Home = () => {
            </ul>
            </div>
            <div className="reseau">
-          <a href=""> <img src="img/face.png" alt="facebook" className="sociaux"></img></a>
-          <a href=""> <img src="img/github.png" alt="github"className="sociaux" ></img></a>
-          <a href=""> <img src="img/twitter.png" alt="twitter" className="sociaux"></img></a>
+          <a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/face.png?raw=true" alt="facebook" className="sociaux"></img></a>
+          <a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/github.png?raw=true" alt="github"className="sociaux" ></img></a>
+          <a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/twitter.png?raw=true" alt="twitter" className="sociaux"></img></a>
            </div>
            </div>
            </div>
@@ -120,4 +121,3 @@ const Luciano_Home = () => {
     )
 }
 export default Luciano_Home;
-  

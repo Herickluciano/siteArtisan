@@ -54,21 +54,17 @@ const Luciano_Contact = () => {
             <div className="card-deplacer-3">
            <ul >
            <li className="card-title fw-bold">John Doe</li>
-            <li className="card-text" ><a href=""><img src="img/route-24.png" alt="rue" className="route-24"></img></a>40 Rue Laure Diebol</li>
-            <li className="card-text"><a href=""> <img src="img/location-24.png" alt="localisation" className="locale-24"></img></a>69009 Lyon France</li>
-            <li className="card-text"><a href=""> <img src="img/telephone-24.png" alt="telephone" className="telephone-24"></img></a>10 2'0 30 40 50</li>
-            <li className="card-text"><a href=""> <img src="img/mail-24.png" alt="mail" className="mail-24"></img></a>johndoe@gmail.com</li>
+            <li className="card-text" ><a href="/"><img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/route-24.png?raw=true" alt="rue" className="route-24"></img></a>40 Rue Laure Diebol</li>
+            <li className="card-text"><a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/location-24.png?raw=true" alt="localisation" className="locale-24"></img></a>69009 Lyon France</li>
+            <li className="card-text"><a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/telephone-24.png?raw=true" alt="telephone" className="telephone-24"></img></a>10 2'0 30 40 50</li>
+            <li className="card-text"><a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/mail-24.png?raw=true" alt="mail" className="mail-24"></img></a>johndoe@gmail.com</li>
            </ul>
            </div>
            </div>
            </div>
             <div className="competence">
-            
             <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7870.775233290362!2d4.789366415929852!3d45.77641527175094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon%2C%20France!5e0!3m2!1sfr!2sit!4v1743681960218!5m2!1sfr!2sit" className=" map col-lg-12 col-md-8 col-sm-8" width="600" height="450" >
-                </iframe></div>
-
-            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7870.775233290362!2d4.789366415929852!3d45.77641527175094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon%2C%20France!5e0!3m2!1sfr!2sit!4v1743681960218!5m2!1sfr!2sit" className=" map col-lg-12 col-md-8 col-sm-8" ></iframe></div>
             </div>
             </div>
             </div>
@@ -89,9 +85,9 @@ const Luciano_Contact = () => {
            </ul>
            </div>
            <div className="reseau">
-          <a href=""> <img src="img/face.png" alt="facebook" className="sociaux"></img></a>
-          <a href=""> <img src="img/github.png" alt="github"className="sociaux" ></img></a>
-          <a href=""> <img src="img/twitter.png" alt="twitter" className="sociaux"></img></a>
+           <a href="/"><img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/face.png?raw=true" alt="facebook" className="sociaux"></img></a>
+          <a href="/"><img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/github.png?raw=true" alt="github"className="sociaux" ></img></a>
+          <a href="/"><img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/twitter.png?raw=true" alt="twitter" className="sociaux"></img></a>
            </div>
            </div>
            </div>

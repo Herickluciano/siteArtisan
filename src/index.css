@@ -58,16 +58,16 @@ navBar {
 }
 .btn{
   position:relative;
-  background-color: #b71c1c;
+  background-color: #b71c1c!important;
   color: #fff;
   border-radius: 6px;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
   padding: 5px;
   margin: 0 1rem;
-  top: -38vh;
+  top: -35vh;
   float: left;
-  left: 10vh;
+  
 }
 .btn-3{
   position:relative;
@@ -147,16 +147,18 @@ ul a{
   justify-content: space-evenly;
 }
 .card{
-  background-color: #424949;
-  color: #f0f0f0;
+  background-color: #424949!important;
+  color: #f0f0f0!important;
+  border-color: #424949!important;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
 }
 .foot{
-  background-color: #424949;
+  background-color: #424949!important;
   color: #f0f0f0;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
+  padding: 2vh;
 }
 .cardlist{
   text-align: justify;
@@ -538,6 +540,9 @@ form .send-btn {
     }
     .sociaux{
       width: 30px;
+      position: relative;
+      left: -1vh;
+      top: 1vh;
     }
     .propriete{
     visibility: hidden;

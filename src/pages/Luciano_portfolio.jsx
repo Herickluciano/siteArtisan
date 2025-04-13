@@ -2,10 +2,7 @@ const Luciano_portfolio = () => {
     return(
         <div>
             <div className="entete col-lg-12 col-md-12 col-sm-12">   
-            <img src="images/banner.jpg" className="couv-2 col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
-            <div className="position-relative bottom-0 start-0">
-            
-            </div>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/banner.jpg?raw=true" className="couv-2 col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
             </div> 
             <div className="cardForm container row shadow p-3 mb-5 bg-body rounded col-lg-12 col-md-12 col-sm-12">
             <h5 className="card-title text-center fw-bold">Portfolio</h5>
@@ -14,7 +11,7 @@ const Luciano_portfolio = () => {
            <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-             <img src="images/portfolio/fresh-food.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
+             <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/portfolio/fresh-food.jpg?raw=true" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
              <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
@@ -25,7 +22,7 @@ const Luciano_portfolio = () => {
             <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-            <img src="images/portfolio/restaurant-japonais.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/portfolio/restaurant-japonais.jpg?raw=true" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
@@ -36,7 +33,7 @@ const Luciano_portfolio = () => {
             <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-            <img src="images/portfolio/espace-bien-etre.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/portfolio/espace-bien-etre.jpg?raw=true" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
@@ -47,7 +44,7 @@ const Luciano_portfolio = () => {
             <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-            <img src="images/portfolio/seo.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/portfolio/seo.jpg?raw=true" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
@@ -58,7 +55,7 @@ const Luciano_portfolio = () => {
             <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-            <img src="images/portfolio/coder.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/portfolio/coder.jpg?raw=true" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info">voici le site</button>
@@ -69,7 +66,7 @@ const Luciano_portfolio = () => {
             <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-            <img src="images/portfolio/screens.jpg" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/portfolio/screens.jpg?raw=true" className="col-lg-12 col-md-8 col-sm-8" alt="john"></img>
             <h5 className="card-title text-center fw-bold">A propos</h5>
             <p className="info card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux..</p>
             <button className="btn-3 fw-bold btn-info card-center">voici le site</button>
@@ -93,9 +90,9 @@ const Luciano_portfolio = () => {
            </ul>
            </div>
            <div className="reseau">
-          <a href=""> <img src="img/face.png" alt="facebook" className="sociaux"></img></a>
-          <a href=""> <img src="img/github.png" alt="github"className="sociaux" ></img></a>
-          <a href=""> <img src="img/twitter.png" alt="twitter" className="sociaux"></img></a>
+           <a href="/"><img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/face.png?raw=true" alt="facebook" className="sociaux"></img></a>
+          <a href="/"><img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/github.png?raw=true" alt="github"className="sociaux" ></img></a>
+          <a href="/"><img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/twitter.png?raw=true" alt="twitter" className="sociaux"></img></a>
            </div>
            </div>
            </div>

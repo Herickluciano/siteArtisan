@@ -3,10 +3,7 @@ const Luciano_Services = () => {
     return(
         <div>
             <div className="entete col-lg-12 col-md-12 col-sm-12">   
-            <img src="images/banner.jpg" className="couv-2 col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
-            <div className="position-relative bottom-0 start-0">
-            
-            </div>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/images/banner.jpg?raw=true" className="couv-2 col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
             </div> 
             <div className="cardForm container row shadow p-3 mb-5 bg-body rounded col-lg-12 col-md-12 col-sm-12">
             <h5 className="card-title text-center fw-bold">Mon offre de services</h5>
@@ -15,7 +12,17 @@ const Luciano_Services = () => {
            <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-            <img src="img/pince.png" className="recherche col-lg-12 col-md-8 col-sm-8" alt="pince"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/pince.png?raw=true" className="recherche" alt="pince"></img>
+            <h5 className="card-title text-center fw-bold">UX Design</h5>
+            <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux textes aléatoires. Vous choisissez le nombre de paragraphes, de mots ou de listes.
+            Vous obtenez alors un text.</p>
+            </div>
+            </div>
+            </div>
+            <div className="col-sm-4 col-md-4 col-md-4 ">
+            <div className="carddetail">
+            <div className="card-body border border-1">
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/developper.png?raw=true" className="recherche" alt="developpeur"></img>
             <h5 className="card-title text-center fw-bold">Developpeur Web</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux textes aléatoires. Vous choisissez le nombre de paragraphes, de mots ou de listes.
             Vous obtenez alors un text.</p>
@@ -25,17 +32,7 @@ const Luciano_Services = () => {
             <div className="col-sm-4 col-md-4 col-md-4 ">
             <div className="carddetail">
             <div className="card-body border border-1">
-            <img src="img/developper.png" className="recherche col-lg-12 col-md-8 col-sm-8" alt="developpeur"></img>
-            <h5 className="card-title text-center fw-bold">Developpeur Web</h5>
-            <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux textes aléatoires. Vous choisissez le nombre de paragraphes, de mots ou de listes.
-            Vous obtenez alors un text.</p>
-            </div>
-            </div>
-            </div>
-            <div className="col-sm-4 col-md-4 col-md-4 ">
-            <div className="carddetail">
-            <div className="card-body border border-1">
-            <img src="img/recherche.png" className="recherche col-lg-12 col-md-8 col-sm-8" alt="recherche"></img>
+            <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/recherche.png?raw=true" className="recherche" alt="recherche"></img>
             <h5 className="card-title text-center fw-bold">Referencement</h5>
             <p className="card-text col-lg-12 col-md-12 col-sm-12">Lorem Ipsum est un générateur de faux textes aléatoires. Vous choisissez le nombre de paragraphes, de mots ou de listes.
             Vous obtenez alors un text.</p>
@@ -47,7 +44,7 @@ const Luciano_Services = () => {
            <footer className=" foot">
            <div className="card-group">
            <div className="card">
-           <div className="card-body">
+           <div className="card-footer">
             <div className="card-deplacer">
             <h5 className="card-title">John Doe</h5>
             <ul>
@@ -58,9 +55,9 @@ const Luciano_Services = () => {
            </ul>
            </div>
            <div className="reseau">
-          <a href=""> <img src="img/face.png" alt="facebook" className="sociaux"></img></a>
-          <a href=""> <img src="img/github.png" alt="github"className="sociaux" ></img></a>
-          <a href=""> <img src="img/twitter.png" alt="twitter" className="sociaux"></img></a>
+           <a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/face.png?raw=true" alt="facebook" className="sociaux"></img></a>
+          <a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/github.png?raw=true" alt="github"className="sociaux" ></img></a>
+          <a href="/"> <img src="https://github.com/Herickluciano/portfolio-app/blob/main/public/img/twitter.png?raw=true" alt="twitter" className="sociaux"></img></a>
            </div>
            </div>
            </div>
