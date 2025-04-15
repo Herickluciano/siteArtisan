@@ -1,6 +1,6 @@
 const Luciano_portfolio = () => {
     return(
-        <div>
+        <div className="row">
             <div className="entete col-lg-12 col-md-12 col-sm-12">   
             <img src="https://github.com/Herickluciano/portfolio/blob/main/public/images/banner.jpg?raw=true" className="couv-2 col-lg-12 col-md-12 col-sm-12" alt="couverture"></img>
             </div> 
