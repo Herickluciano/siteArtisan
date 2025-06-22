@@ -1,22 +1,213 @@
-body {
+ 
+ @import url("https://fonts.googleapis.com/css2?family=Grapgik:wght@300&display=swap");
+
+ body {
   margin: 0;
-  font-family: "Nunito Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Graphik", sans-serif;
 }
-.couv {
- filter: brightness(50%);
- height: 535px;
-}
-.couv-2 {
+
+
+.btn_group {
+  display: flex;
+  align-items: baseline;
   position: relative;
-  top: -3vh;
-  filter: brightness(50%);
-  
+  right: 13px;
+  top: 15px;
+ 
+}
+.dropdown {
+  position: absolute;
+  top: 40px;
+  left: 740px;
+  margin: 2px;
+}
+.btn2 {
+  position: absolute;
+  top: 40px;
+  left: 1090px;
+}
+.navbar-nav {
+  position: relative;
+  left: -57vh;
+  top: -25px;
+}
+.nav-link {
+  position: relative;
+  margin: 10px!important;
+}
+
+.logo {
+  position: absolute;
+  width: 220px!important;
+  top: -60px;
+}
+.logo2 {
+  position: relative;
+  width: 220px!important;
+ top: -22vh;
+  left: 62vh;
+}
+.france {
+  position: relative;
+  top: -36vh;
+  left: 57vh;
+  text-align: center!important;
+  opacity: 0.5;
+}
+.rech {
+  position: absolute;
+  top: 1vh;
+  left: 143vh;
+  text-align: center!important;
+}
+.rech-2 {
+  position: absolute;
+  color: #0074c7;
+  top: 20vh;
+  left: 14vh;
+  text-align: center!important;
+}
+
+/*--------------------------------------------------------------
+2.0 - SEARCH FORM
+--------------------------------------------------------------*/
+.searchform {
+  background:#f4f4f4;
+  background:rgba(244,244,244,.79);
+  border: 1px solid #d3d3d3;
+	left: 50%;
+  padding: 2px 5px;
+  position: absolute;
+	margin: -22px 0 0 -170px;
+	top: 50%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+}
+
+.searchform input, .searchform button {
+	float: left
+}
+.rechercher  {
+	width: 30px;
+  position: relative;
+  left: -0.5vh;
+  top: 1vh;
+}
+ .tout-btn {
+  position: relative;
+  left: -17vh;
+}
+.btn-rech {
+	width: 30px;
+  position: absolute;
+ left: 56vh;
+  top: -0.1vh;
+  color: #f0f0f0;
+  border: none;
+  opacity: 0.3;
+}
+.text-input {
+	background:#fefefe;
+	border: #f0f0f0;
+	font:12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 316px;
+  position: relative;
+  left: 60px;
+  top: -0.3vh;
+}
+.btn-rech-2 {
+	width: 30px;
+  position: absolute;
+ left: 56vh;
+  top: -0.1vh;
+  color: #f0f0f0;
+  border: none;
+  opacity: 0.3;
+}
+.text-input-2 {
+	background:#fefefe;
+	border: #f0f0f0;
+	font:12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 316px;
+  position: relative;
+  left: 60px;
+  top: -0.3vh;
+}
+	.searchform input:focus {
+		outline: none;
+		box-shadow:0 0 4px #0d76be inset;
+		-moz-box-shadow:0 0 4px #0d76be inset;
+		-webkit-box-shadow:0 0 4px #0d76be inset;
+	}
+	.searchform input::-webkit-input-placeholder {
+  	font-style: italic;
+  	line-height: 15px
+	}
+
+	.searchform input:-moz-placeholder {
+	  font-style: italic;
+  	line-height: 15px
+	}
+
+.search {
+	background: rgb(52,173,236);
+	position: relative;
+  left: -10vh;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34adec', endColorstr='#2691dc',GradientType=0 );
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	font: 13px/13px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	padding: 10px;
+	width:106px;
+	box-shadow: 0 0 2px #2692dd inset;
+	-moz-box-shadow: 0 0 2px #2692dd inset;
+	-webkit-box-shadow: 0 0 2px #2692dd inset;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+}
+	.searchform button:hover {
+		opacity:.9;
+	}
+
+.couv {
+ filter: brightness(60%);
+ height: 295px;
+ position: relative;
+ float: right;
+}
+.entete {
+ position:relative;
+ top: -50px;
  }
- .border {
- margin:1vh;
-  
+ 
+ .page-00 {
+ position:relative;
+ left: 36vh;
+ top: 8vh;
+ }
+ .page-404 {
+ position:relative;
+ left: 36vh;
+ top: 8vh;
+ }
+ .page-const {
+ position:relative;
+ left: 36vh;
+ 
+ }
+ .vue-404 {
+  position: relative;
+  left: 24vh;
+ width: 550px!important;
+ height: 350px;
  }
  .card-bord {
   position: relative;
@@ -24,6 +215,94 @@ body {
      background: #a59f9e;
      width: 50vh;
      left: -2vh;
+  }
+  footer  {
+  background-color: #354050;
+  color: #f1f8fc;
+  display: inline-block;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-align: center!important;
+  }
+  
+  .foot-body .titre-foot {
+   position: relative;
+   text-align: center;
+   left: 12vh;
+   
+  }
+  .titre-foot {
+   float: left;
+   left: 12px!important;
+   position: relative;
+   text-align: center;
+   top: 15px;
+   margin: 5px;
+   padding: 2px;
+   
+  }
+   .detail-foot1 {
+   position: relative;
+   text-align: center;
+   left: 7vh;
+   font-size: 16px;
+   font-family: "Graphik";
+   margin: 0px!important;
+   padding: 0px!important;
+  }
+  .detail-foot {
+   position: relative;
+   text-align: center;
+   left: 31vh;
+   font-size: 16px;
+   font-family: "Graphik";
+   margin: 0px!important;
+   padding: 0px!important;
+  }
+  .info-foot {
+   position: relative;
+   left: 30vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot2 {
+   position: relative;
+   left: 25vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot3 {
+   position: relative;
+   left: 20vh; 
+   font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot4 {
+   position: relative;
+   left: 3vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .socio {
+    display: flex;
+  position: relative;
+  align-items: baseline;
+  }
+  .titre-foot {
+  position: relative;
+  width: 250px!important;
+  }
+  .btn-foot{
+  position:relative;
+  left: 9vh;
+}
+.adresse-foot{
+  position:relative;
+  left: 35vh;
+}
+  .text-foot{
+    width: 350vh;
   }
 code {
   font-family: "Nunito Sans", sans-serif;
@@ -45,11 +324,30 @@ navBar {
 }
 .affiche{
   position: relative;
-  top: -54vh;
-  float: left;
-  left: 74vh;
+ text-align: center;
+ top: 15vh;
+  float: right;
+ left: 105vh;
   color: aliceblue;
   font-family: "Nunito Sans", sans-serif;
+}
+
+.text_couv{
+  background-color: #f1f8fc;
+  height: 46vh;
+}
+.text_couv2{
+  position: relative;
+ text-align: center;
+ top: -6vh;
+}
+.text_couv3{
+  position: relative;
+ text-align: center;
+ top: 4vh;
+ left: 34vh;
+ font-style: italic;
+ font-family: italic;
 }
 .line{
   color: blue;
@@ -58,57 +356,191 @@ navBar {
 }
 .btn{
   position:relative;
-  background-color: #b71c1c!important;
-  color: #fff;
+  background-color: #0074c7!important;
+  color: #fff!important;
   border-radius: 6px;
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
-  padding: 5px;
-  margin: 0 1rem;
-  top: -35vh;
-  float: left;
-  
-}
-.btn-3{
-  position:relative;
-  color: #fff;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
-  width: 35%;
-  text-align: center;
+  padding: 1px;
+  margin: 0 5px;
   left: 15vh;
+  top: -1vh;
 }
 .cardForm{
    position: relative;
-   box-shadow: #424949;
    text-align: center;
-   left: 18vh;
+  top: -3vh;
+  width: 1000px;
+}
+.titre-bienvenue{
+   position: relative;
+   left: 52vh;
+  top: -3vh;
+  font-size: 40px;
+  color: #0074c7;
+}
+.text-bienvenu{
+   position: relative;
+   text-align: justify;
   top: -3vh;
    padding: 0;
    margin: 0;
+   left: 56vh;
+   top: -33px;
 }
-.card-body{
+.bienvenue{
+   display: flex;
+   align-items: baseline;
+}
+.image-group{
+   position: relative;
+   top: 40px;
+}
+.categ-group{
   display: flex;
-  flex-direction: column;
-  justify-content: first baseline;
+  align-items: baseline;
+  position: relative;
+  left: 140px;
+  top: 10px;
+  margin: 35px;
+  padding: 10px;
 }
-.card-text{
+.titre-categ{
+  position: relative;
+  top: -23px;
+}
+.categ-text{
+  position: relative;
+  top: 23px;
+}
+.categ-group .img-const{
+  position: absolute;
+  top: -54px;
+  border-radius: 0!important;
+  width: 70px;
+  height: 70px;
+ 
+}
+.categ-person{
   text-align: justify;
+  width: 120px;
 }
-.basSite{
- background-color:#424949 ;
+.page-404 .text-detail-info{
+  text-align: justify;
+  width: 500px;
+  position: relative;
+  top: 200px;
 }
-.texDetail{
-  padding: 6vh;
+.page-404 .img-const{
+  position: relative;
+  left: 305px;
+  top: 5px;
+}
+.bienvenue-group{
+   position: relative;
+   top: 40px;
+}
+.detail-bienvenu{
+   display: flex;
+   align-items: baseline;
+   position: relative;
+   left: 30vh;
+   top: -125px;
+}
+.text-detail-1{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 64px;
+   top: -3px;
+}
+.text-detail-2{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 30px;
+   top: -3px;
+}
+.btn-detail{
+  position:relative;
+  left: -23vh;
+  top: 6px;
+}
+.btn-detai{
+  position:relative;
+  left: -28vh;
+  top: 6px;
+}
+.etoil{
+  position: relative;
+  top: -4px;
+  width: 20px;
+}
+.etoil2{
+  position: relative;
+  
+  width: 20px;
+}
+.petit{
+  font-size: 10px;
+}
+.titre-image{
+   position: relative;
+   left: 28vh;
+  top: -6vh;
+  font-size: 30px;
+  color: #0074c7;
+}
+.detail-image{
+   display: flex;
+   align-items: baseline;
+   position: relative;
+   top: 8vh;
+}
+.img-const{
+  position: relative;
+  width: 260px;
+  border-radius: 14px;
+ filter: brightness(55%);
+ top: -72px;
+}
+.text-img-1{
+ position: relative;
+ top: -182px;
+ font-size: 23px;
+}
+.info{
+  position: relative;
+  top: -40px;
     display: flex;
-    flex: row;
-    justify-content: space-evenly;
+    align-items: baseline;
+    background-color: #0074c7;
+    width: 100%;
+    height: 320px;
  }
- .texList{
-  font-family: "Nunito Sans", sans-serif;
-  color: #fff;
-  opacity: 0,4;
+ .text-detail-info{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 30px;
+   top: -25vh;
+}
+ .triangle{
+  position: relative;
+  height: 458px!important;
+  top: -53px;
+  left: -5px;
+}
+.btn-detai-info{
+  position:relative;
+  left: -88vh;
+  top: -20vh;
 }
  li{
   list-style-type: none;
@@ -153,13 +585,6 @@ ul a{
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
 }
-.foot{
-  background-color: #424949!important;
-  color: #f0f0f0;
-  font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
-  padding: 2vh;
-}
 .cardlist{
   text-align: justify;
   position: relative;
@@ -185,9 +610,10 @@ ul a{
 }
 .sociaux{
   position: relative;
-  left: 12vh;
-  top: -2vh;
+  left: 26vh;
+ 
   width: 30px;
+  margin: 5px;
 }
 .recherche{
   position: relative;
@@ -295,292 +721,1490 @@ form .send-btn {
  
 
 /* Styles pour smartphones */
-@media (max-width: 600px) {
-  .container {
-      padding: 10px;
-  }
-  .border {
-    margin:1vh;
-     
-    }
-
-  .header, .footer {
-      padding: 15px 0;
-  }
-
-  .main-content {
-      padding: 15px;
-  }
-  .cardForm{
-    position: relative;
-    box-shadow: #424949;
-    text-align: center;
-    left: 0.6vh;
-    top: vh;
-    padding: 0;
-    margin: 0;
- }
- .affiche{
+@media (max-width: 640px){
+  .logo {
+  position: absolute;
+  width: 140px!important;
+  top: -16px;
+  left: -33px;
+}
+.navbar {
   position: relative;
-  top: -35vh;
-  float: left;
-  left: 2vh;
-  color: aliceblue;
-  font-family: "Nunito Sans", sans-serif;
+  top: -42px;
+  left: 13px;
 }
-
-.btn{
-  position:relative;
-  background-color: #b71c1c;
-  color: #fff;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
-  padding: 5px;
-  margin: 0 1rem;
-  top: -34vh;
-  float: left;
-  left: 20vh;
- 
+.navbar-nav {
+  position: relative;
+  left: -106px;
+  top: -66px;
+  padding: inherit!important;
 }
-.propriete{
+.rech {
   position:relative;
-  top: 4vh;
-  font-size: 1rem;
-  color: black;
-  font-family: "Nunito Sans", sans-serif;
+ left: -14px;
+ top: -460px;
+  text-align: center!important;
+}
+.text-input {
+	background:#fefefe;
+	border: #f0f0f0;
+	font:12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 160px;
+  height: 35px;
+  position: relative;
+  left: 57px;
+  top: -0.3vh;
+}
+.btn-rech {
+	width: 30px;
+  position: relative;
+ left: 25px!important;
+ top: -7px;
+  border: none;
+  opacity: 0.3;
 }
 .couv {
-  filter: brightness(50%);
-  height: 335px;
-  width: 400px;
- }
- .couv-2 {
-  position: relative;
-  top: -3vh;
-  filter: brightness(50%);
-  width: 57vh;
- }
- .card{
-  position: relative;
-  left: -15vh;
-  background-color: #424949;
-  color: #f0f0f0;
-  font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
-}
-.card-adresse{
-  position: relative;
-  left: -36vh;
-  top: -3vh;
-  font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
-}
-.map {
-  position: relative;
-  left: -6vh;
-  top: -3vh;
-  width: 400px;
-  height: 300px;
- 
-}
-.card-deplacer{
-  text-align: justify;
-  position: relative;
-  left: 30vh;
-  font-size: 14px;
-}
-.card-deplacer-2{
-  text-align: justify;
-  position: relative;
-  left: 30vh;
-  font-size: 14px;
-  font-family: "Nunito Sans", sans-serif;
-}
-.card-deplacer-3{
-  text-align: justify;
-  position: relative;
-  left: 30vh;
-  font-size: 14px;
-  font-family: "Nunito Sans", sans-serif;
-}
-.sociaux{
-  position: relative;
-  left: 17vh;
-  width: 30px;
-}
-.section-3{
-  width: 80%;
-  padding: 0;
- margin: 0;
-}
-.card-section{
+ filter: brightness(50%);
+ height: 295px;
  position: relative;
- left: -45;
+ float: right;
+ width: 101%;
+ left: 1vh;
+}
+.text_couv{
+width: 0;
+}
+.france {
+  visibility: hidden;
+}
+.affiche{
+  position: relative;
+ text-align: center;
+ left: -75px;
+ top: -290px;
+ font-size: 24px;
+  color: #0074c7;
+  font-family: "Nunito Sans", sans-serif;
+}
+.text_couv2{
+  position: absolute;
+ text-align: center;
+ color: #d3d3d3;
+ font-size: 24px;
+ top: 67px;
+ left: -145px;
+ width: 100vh!important;
+}
+.rech-2 {
+  position: absolute;
+  color: #0074c7;
+  top: 117px;
+  left: -74px;
+  text-align: center!important;
+}
+.btn-rech-2 {
+	width: 30px;
+  position: relative;
+ left: 220px!important;
+  top: -43px!important;
+  color: #f0f0f0;
+  border: none;
+  opacity: 0.3;
+}
+.text-input-2 {
+	background:#fefefe;
+	border: #f0f0f0;
+	font:12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 316px;
+  position: relative;
+  left: 60px;
+  top: -0.3vh;
+}
+ .tout-btn {
+  display: flex;
+  align-items: self-end;
+  position: relative;
+  top: 38px;
+  left: -94px;
+  font-size: 14px!important;
+}
+ .tout-btn .btn {
+  position: relative;
+  width: 80px!important;
+  font-size: 10px;
+  left: 95px;
+}
+.btn_group {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  right: 1003px;
+  top: 15px;
+  width: 100px!important;
+  overflow: hidden;
+  visibility: hidden;
+}
+.dropdown {
+  position: absolute;
+  top: 40px;
+  left: 740px;
+  margin: 2px;
+}
+.btn2 {
+  position: absolute;
+  top: 40px;
+  left: 1090px;
+}
+.text_couv3{
+  position: absolute;
+ text-align: center;
+ font-style: italic;
+ left: 150px;
+ top: 272px;
+ font-family: italic;
+}
+.searchform input:focus {
+		outline: none;
+		box-shadow:0 0 4px #0d76be inset;
+		-moz-box-shadow:0 0 4px #0d76be inset;
+		-webkit-box-shadow:0 0 4px #0d76be inset;
+	}
+	.searchform input::-webkit-input-placeholder {
+  	font-style: italic;
+  	line-height: 15px
+	}
+
+	.searchform input:-moz-placeholder {
+	  font-style: italic;
+  	line-height: 15px
+	}
+
+.search {
+	background: rgb(52,173,236);
+	position: relative;
+  left: -10vh;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34adec', endColorstr='#2691dc',GradientType=0 );
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	font: 13px/13px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	padding: 10px;
+	width:106px;
+	box-shadow: 0 0 2px #2692dd inset;
+	-moz-box-shadow: 0 0 2px #2692dd inset;
+	-webkit-box-shadow: 0 0 2px #2692dd inset;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+}
+	.searchform button:hover {
+		opacity:.9;
+	}
+.cardForm{
+   position: relative;
+   text-align: center;
+  top: -16vh;
+  left: -25vh;
+  width: 101%;
+}
+.resp-bien{
+   position: relative;
+   text-align: center;
+  top: -3vh;
+  left: -26vh;
  
 }
-.form-select{
-  margin: 0;
-  width: 3%;
- } 
- option{
-  width: 3%;
-  font-size: 10px;
-  font-family: "Nunito Sans", sans-serif;
- } 
- .info{
+.logo2 {
   position: relative;
-  left: -0.5vh;
-  width: 100%;
-  font-family: "Nunito Sans", sans-serif;
- } 
+  width: 160px!important;
+ top: -188px;
+  left: 476px;
 }
+.titre-bienvenue{
+   position: relative;
+   left: 376px;
+  top: -13px;
+  font-size: 20px;
+  color: #0074c7;
+}
+.text-bienvenu{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 54vh;
+   width: 50%;
+   top: -20px;
+}
+.bienvenue{
+   display: flex;
+   align-items: baseline;
+}
+.detail-bienvenu{
+   display: flex;
+   align-items: baseline;
+   position: relative;
+   left: 30vh;
+   top: -138px;
+   font-size: 14px;
+}
+.resp-titre{
+   visibility: hidden;
+   overflow: hidden;
+}
+.resp-titre-1{
+   visibility: hidden;
+   overflow: hidden;
+   
+}
+.resp-titre-bien{
+  position: absolute;
+  top: 330px;
+  left: 6px;
+  width: 70%!important;
+  font-size: 18px;
+  text-align: justify!important;
+}
+
+.resp-titre-btn{
+  position: relative;
+  left: 12px!important;
+  top: 13px;
+}
+.resp-avis{
+  position: relative;
+   width: 300px!important;
+   font-size: 14px;
+   top: -90px!important;
+   left: -50px;
+}
+.text-detail-1{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 64px;
+   top: -3px;
+}
+.text-detail-2{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 30px;
+   top: -3px;
+}
+.btn-detail{
+  position:relative;
+  left: -23vh;
+  top: 6px;
+}
+.btn-detai{
+  position:relative;
+  left: -28vh;
+  top: 6px;
+}
+.etoil{
+  position: relative;
+  top: -4px;
+  width: 20px;
+}
+.petit{
+  font-size: 10px;
+}
+.resp-img-1{
+  position: relative;
+  top: -240px;
+  left: 190px;
+}
+.resp-img-2{
+  position: relative;
+   width: 20px!important;
+  top: -240px;
+  left: 330px;
+}
+.resp-img-3{
+  position: relative;
+  top: -120px;
+  left: 90px;
+}
+.resp-img-4{
+   position: relative;
+  top: -120px;
+  left: 230px;
+}
+
+.titre-image{
+   position: relative;
+   left: 158px;
+  top: -253px;
+  font-size: 20px;
+  margin: 5px;
+  padding: 22px;
+  color: #0074c7;
+}
+.detail-image{
+   display: flex;
+   align-items: baseline;
+   position: relative;
+   top: 8vh;
+}
+.detail-image .detail-1{
+   width: 50px!important;
+}
+.img-const{
+  position: relative;
+  width: 155px;
+  border-radius: 14px;
+ filter: brightness(55%);
+ top: -72px;
+ margin: 3px;
+}
+.text-img-1{
+ position: relative;
+ top: -152px;
+ font-size: 23px;
+ left: 11px;
+}
+.info{
+  position: relative;
+    background-color: #0074c7;
+    width: 100%;
+    height: 430px;
+ }
+ .resp-text-img{
+  position: relative;
+  width: 56vh!important;
+  left: -34vh; 
+ }
+ 
+ .triangle{
+  position: relative;
+  height: 150px!important;
+  top: -18px;
+  left: -350px;
+  width: 450px;
+  overflow: hidden;
+}
+.text-detail-info{
+   position: relative;
+   text-align: justify;
+   width: 300px!important;
+   top: 93px!important;
+   padding: 0;
+   margin: 0;
+   left: 25px;
+   overflow: hidden;
+}
+.resp-titre-nul{
+   position: relative;
+   text-align: justify;
+   width: 300px!important;
+  top: 93px!important;
+   padding: 0;
+   margin: 0;
+   left: -700px;
+   top: 25vh;
+   visibility: hidden!important;
+   overflow: hidden;
+}
+.btn-detai-info{
+  position:relative;
+  left: -825px;
+  top: -233px;
+  overflow: hidden;
+}
+footer  {
+  background-color: #354050;
+  color: #f1f8fc;
+  display: inline-block;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-align: center!important;
+  }
+  
+  .foot-body .titre-foot {
+   position: relative;
+   text-align: center;
+   left: 12px;
+   
+  }
+  .titre-foot {
+   float: left;
+   left: -12px!important;
+   position: relative;
+   text-align: center;
+   top: 15px;
+   margin: 5px;
+   padding: 2px;
+   
+  }
+   .detail-foot1 {
+   position: relative;
+   text-align: center;
+   left: 7px;
+   font-size: 16px;
+   font-family: "Graphik";
+   margin: 0px!important;
+   padding: 0px!important;
+  }
+  .detail-foot {
+   position: relative;
+   text-align: center;
+   left: 161px;
+   font-size: 16px;
+   font-family: "Graphik";
+   margin: 0px!important;
+   padding: 0px!important;
+  }
+  .info-foot {
+   position: relative;
+   left: 140px!important; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot2 {
+   position: relative;
+   left: 15vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot3 {
+   position: relative;
+   left: 15vh; 
+   font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot4 {
+   position: relative;
+   left: -6vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .socio {
+    display: flex;
+  position: relative;
+  align-items: baseline;
+  position: relative;
+  left: -60px;
+  }
+  .titre-foot {
+  position: relative;
+  width: 250px!important;
+  }
+  .btn-foot{
+  position:relative;
+  left: 9px;
+}
+.adresse-foot{
+  position:relative;
+  left: 135px;
+}
+  .text-foot{
+    width: 350px;
+  }
+  .resp-foot-1 {
+   left: 85px!important;
+   position: relative;
+   text-align: center;
+   top: 15px;
+  }
+  .resp-foot-2 {
+   left: -58px!important;
+   position: relative;
+   text-align: center;
+   top: -3px;
+  }
+  .resp-foot-3 {
+   left: -56px!important;
+   position: relative;
+   text-align: center;
+   top: -12px;
+  }
+  .resp-foot-4 {
+   left: -105px!important;
+   position: relative;
+   text-align: center;
+   top: 5px;
+  }
+
+}
+
+
 
 /* Styles spécifiques pour les tablettes */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   body {
-      background-color: #f0f0f0;
-      font-size: 14px;
-      font-family: "Nunito Sans", sans-serif;
-  }
-  .border {
-    margin:1vh;
-     
-    }
-  .footer {
-      font-size: 1em;
-      text-align: center;
-      padding: 10px;
-  }
-  .cardForm{
-    position: relative;
-    box-shadow: #424949;
-    text-align: center;
-    left: 1.5vh;
-    top: -1vh;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-    font-family: "Nunito Sans", sans-serif;
- }
-  .affiche{
-    position: relative;
-  top: -32vh;
-  float: left;
-  left: 22vh;
-  color: aliceblue;
-  font-size: 3em;
-  font-family: "Nunito Sans", sans-serif;
-  }
-  .couv-2 {
-    position: relative;
-    top: -2vh;
-    filter: brightness(50%);
-    
-   }
+  margin: 0;
+  padding: 0;
+  font-family: "Graphik", sans-serif;
+}
 
-  .btn{
-    position: absolute;
-    background-color: #b71c1c;
-    color: #fff;
-    border-radius: 6px;
-    font-size: 2rem;
-    font-family: "Nunito Sans", sans-serif;
-    padding: 5px;
-    margin: 0 1rem;
-    top: -18vh;
-    float: left;
-    left: 30vh;
+
+.btn_group {
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  right: 13px;
+  top: 15px;
+ 
+}
+.dropdown {
+  position: absolute;
+  top: 40px;
+  left: 740px;
+  margin: 2px;
+}
+.btn2 {
+  position: absolute;
+  top: 40px;
+  left: 1090px;
+}
+.navbar-nav {
+  position: relative;
+  left: -57vh;
+  top: -25px;
+}
+.nav-link {
+  position: relative;
+  margin: 10px!important;
+}
+
+.logo {
+  position: absolute;
+  width: 220px!important;
+  top: -60px;
+}
+.logo2 {
+  position: relative;
+  width: 220px!important;
+ top: -22vh;
+  left: 62vh;
+}
+.france {
+  position: relative;
+  top: -36vh;
+  left: 57vh;
+  text-align: center!important;
+  opacity: 0.5;
+}
+.rech {
+  position: absolute;
+  top: 1vh;
+  left: 143vh;
+  text-align: center!important;
+}
+.rech-2 {
+  position: absolute;
+  color: #0074c7;
+  top: 20vh;
+  left: 14vh;
+  text-align: center!important;
+}
+
+/*--------------------------------------------------------------
+2.0 - SEARCH FORM
+--------------------------------------------------------------*/
+.searchform {
+  background:#f4f4f4;
+  background:rgba(244,244,244,.79);
+  border: 1px solid #d3d3d3;
+	left: 50%;
+  padding: 2px 5px;
+  position: absolute;
+	margin: -22px 0 0 -170px;
+	top: 50%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px
+}
+
+.searchform input, .searchform button {
+	float: left
+}
+.rechercher  {
+	width: 30px;
+  position: relative;
+  left: -0.5vh;
+  top: 1vh;
+}
+ .tout-btn {
+  position: relative;
+  left: -17vh;
+}
+.btn-rech {
+	width: 30px;
+  position: absolute;
+ left: 56vh;
+  top: -0.1vh;
+  color: #f0f0f0;
+  border: none;
+  opacity: 0.3;
+}
+.text-input {
+	background:#fefefe;
+	border: #f0f0f0;
+	font:12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 316px;
+  position: relative;
+  left: 60px;
+  top: -0.3vh;
+}
+.btn-rech-2 {
+	width: 30px;
+  position: absolute;
+ left: 50px!important;
+  top: -0.1vh;
+  color: #f0f0f0;
+  border: none;
+  opacity: 0.3;
+}
+.text-input-2 {
+	background:#fefefe;
+	border: #f0f0f0;
+	font:12px/12px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	margin-right: 5px;
+	padding: 10px;
+	width: 316px;
+  position: relative;
+  left: 60px;
+  top: -0.3vh;
+}
+	.searchform input:focus {
+		outline: none;
+		box-shadow:0 0 4px #0d76be inset;
+		-moz-box-shadow:0 0 4px #0d76be inset;
+		-webkit-box-shadow:0 0 4px #0d76be inset;
+	}
+	.searchform input::-webkit-input-placeholder {
+  	font-style: italic;
+  	line-height: 15px
+	}
+
+	.searchform input:-moz-placeholder {
+	  font-style: italic;
+  	line-height: 15px
+	}
+
+.search {
+	background: rgb(52,173,236);
+	position: relative;
+  left: -10vh;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34adec', endColorstr='#2691dc',GradientType=0 );
+	border: none;
+	color:#fff;
+	cursor: pointer;
+	font: 13px/13px 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	padding: 10px;
+	width:106px;
+	box-shadow: 0 0 2px #2692dd inset;
+	-moz-box-shadow: 0 0 2px #2692dd inset;
+	-webkit-box-shadow: 0 0 2px #2692dd inset;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+}
+	.searchform button:hover {
+		opacity:.9;
+	}
+
+.couv {
+ filter: brightness(60%);
+ height: 295px;
+ position: relative;
+ float: right;
+}
+.entete {
+ position:relative;
+ top: -50px;
+ }
+ 
+ 
+ .page-404 {
+ position:relative;
+ left: 36vh;
+ top: 8vh;
+ }
+ .page-const {
+ position:relative;
+ left: 36vh;
+ 
+ }
+ .vue-404 {
+  position: relative;
+  left: 24vh;
+ width: 550px!important;
+ height: 350px;
+ }
+ .card-bord {
+  position: relative;
+  top: 2vh;
+     background: #a59f9e;
+     width: 50vh;
+     left: -2vh;
   }
-  .btn-3{
-     position: relative;
-     width: 13vh;
-     left: 3vh;
-     font-size: 1.8em;
-     font-family: "Nunito Sans", sans-serif;
+  footer  {
+  background-color: #354050;
+  color: #f1f8fc;
+  display: inline-block;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  text-align: center!important;
   }
-  .card-text{
-  font-size: 1.8em;
-  font-family: "Nunito Sans", sans-serif;
-    }
-    .card-deplacer{
-      text-align: justify;
-      position: relative;
-      left: 2vh;
-      font-size: 14px;
-    }
-    .card-deplacer-2{
-      text-align: justify;
-      position: relative;
-      left: 2vh;
-      font-size: 14px;
-      font-family: "Nunito Sans", sans-serif;
-    }
-    .card-deplacer-3{
-      text-align: justify;
-      position: relative;
-      left: 1vh;
-      font-size: 14px;
-      font-family: "Nunito Sans", sans-serif;
-    }
-    .card-adresse{
-      position: relative;
-      left: -4vh;
-      top: -2vh;
-      font-size: 1rem;
-      font-family: "Nunito Sans", sans-serif;
-    }
-    .map {
-      position: relative;
-      left: -3vh;
-      top: -3vh;
-      width: 400px;
-      height: 300px;
-     
-    }
-    .sociaux{
-      width: 30px;
-      position: relative;
-      left: -1vh;
-      top: 1vh;
-    }
-    .propriete{
-    visibility: hidden;
-    }  
-    form {
-      width: 80%;
-      margin: 0 auto;
-      font-size: 14px;
-      font-family: "Nunito Sans", sans-serif;
-  } 
-  .section-3{
-    width: 80%;
-    padding: 0;
-   margin: 0;
-  }
-  .card-section{
+  
+  .foot-body .titre-foot {
    position: relative;
-   left: -45;
+   text-align: center;
+   left: 12vh;
    
   }
-  .form-select{
-    margin: 0;
-    width: 3%;
-   } 
-   option{
-    width: 3vh;
-    font-size: 10px;
-    font-family: "Nunito Sans", sans-serif;
-   } 
-   .info{
+  .titre-foot {
+   float: left;
+   left: 12px!important;
+   position: relative;
+   text-align: center;
+   top: 15px;
+   margin: 5px;
+   padding: 2px;
+   
+  }
+   .detail-foot1 {
+   position: relative;
+   text-align: center;
+   left: 7vh;
+   font-size: 16px;
+   font-family: "Graphik";
+   margin: 0px!important;
+   padding: 0px!important;
+  }
+  .detail-foot {
+   position: relative;
+   text-align: center;
+   left: 31vh;
+   font-size: 16px;
+   font-family: "Graphik";
+   margin: 0px!important;
+   padding: 0px!important;
+  }
+  .info-foot {
+   position: relative;
+   left: 30vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot2 {
+   position: relative;
+   left: 25vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot3 {
+   position: relative;
+   left: 20vh; 
+   font-size: 16px;
+   color: #0074c7;
+  }
+  .info-foot4 {
+   position: relative;
+   left: 3vh; 
+    font-size: 16px;
+   color: #0074c7;
+  }
+  .socio {
+    display: flex;
+  position: relative;
+  align-items: baseline;
+  }
+  .titre-foot {
+  position: relative;
+  width: 250px!important;
+  }
+  .btn-foot{
+  position:relative;
+  left: 9vh;
+}
+.adresse-foot{
+  position:relative;
+  left: 35vh;
+}
+  .text-foot{
+    width: 350vh;
+  }
+code {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar {
+    margin: 12px;
     position: relative;
-    left: -0.5vh;
+    text-decoration: none;
+    display: inline;
+    font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+navBar {
+  display: flex;
+  justify-content: end;
+}
+.affiche{
+  position: relative;
+ text-align: center;
+ top: 15vh;
+  float: right;
+ left: 105vh;
+  color: aliceblue;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.text_couv{
+  background-color: #f1f8fc;
+  height: 46vh;
+}
+.text_couv2{
+  position: relative;
+ text-align: center;
+ top: -6vh;
+}
+.text_couv3{
+  position: relative;
+ text-align: center;
+ top: 4vh;
+ left: 34vh;
+ font-style: italic;
+ font-family: italic;
+}
+.line{
+  color: blue;
+  width: 100%;
+ 
+}
+.btn{
+  position:relative;
+  background-color: #0074c7!important;
+  color: #fff!important;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 1px;
+  margin: 0 5px;
+  left: 15vh;
+  top: -1vh;
+}
+.cardForm{
+   position: relative;
+   text-align: center;
+  top: -3vh;
+  width: 1000px;
+}
+.titre-bienvenue{
+   position: relative;
+   left: 52vh;
+  top: -3vh;
+  font-size: 40px;
+  color: #0074c7;
+}
+.text-bienvenu{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 56vh;
+   top: -33px;
+}
+.bienvenue{
+   display: flex;
+   align-items: baseline;
+}
+.detail-bienvenu{
+   display: flex;
+   align-items: baseline;
+   position: relative;
+   left: 30vh;
+   top: -125px;
+}
+.text-detail-1{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 64px;
+   top: -3px;
+}
+.text-detail-2{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 30px;
+   top: -3px;
+}
+.btn-detail{
+  position:relative;
+  left: -23vh;
+  top: 6px;
+}
+.btn-detai{
+  position:relative;
+  left: -28vh;
+  top: 6px;
+}
+.etoil{
+  position: relative;
+  top: -4px;
+  width: 20px;
+}
+.petit{
+  font-size: 10px;
+}
+.titre-image{
+   position: relative;
+   left: 28vh;
+  top: -6vh;
+  font-size: 30px;
+  color: #0074c7;
+}
+.detail-image{
+   display: flex;
+   align-items: baseline;
+   position: relative;
+   top: 8vh;
+}
+.img-const{
+  position: relative;
+  width: 260px;
+  border-radius: 14px;
+ filter: brightness(55%);
+ top: -72px;
+}
+.text-img-1{
+ position: relative;
+ top: -182px;
+ font-size: 23px;
+}
+.info{
+  position: relative;
+  top: -10px;
+    display: flex;
+    align-items: baseline;
+    background-color: #0074c7;
     width: 100%;
-    font-family: "Nunito Sans", sans-serif;
-   } 
-   .recherche{
-    position: relative;
-    width: 55px;
-    left: 6vh;
+    height: 320px;
+ }
+ .text-detail-info{
+   position: relative;
+   text-align: justify;
+  top: -3vh;
+   padding: 0;
+   margin: 0;
+   left: 30px;
+   top: -25vh;
+}
+ .triangle{
+  position: relative;
+  height: 458px!important;
+  top: -53px;
+  left: -5px;
+}
+.btn-detai-info{
+  position:relative;
+  left: -88vh;
+  top: -20vh;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.5rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body,
+button,
+input {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+button,
+input {
+  border: none;
+  outline: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  left: 25vh!important;
+  top: -5vh!important;
+}
+.grid {
+  display: grid;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  background-color: var(--skin-color);
+  color: var(--title-color);
+  padding: 0.75rem 1.4rem;
+  border-radius: 0.25rem;
+  font-weight: var(--font-medium);
+  position: relative;
+  z-index: 1;
+  transition: 0.4s;
+}
+.button::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--mirage-color);
+  z-index: -1;
+  transform-origin: center;
+  transform: scale(0);
+  border-radius: 0.25rem;
+  transition: 0.3s;
+}
+.button:hover::after {
+  transform: scale(1);
+}
+.section {
+  padding: 6.5rem 0 2rem;
+}
+.section-title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb3);
+}
+.section-title::before {
+  content: attr(data-heading);
+  display: block;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--skin-color);
+}
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--scroll-box-color);
+  border-radius: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color);
+  border-radius: 0.5rem;
+}
+
+.main {
+  margin-left: 100px;
+}
+
+/* Main - Contact */
+
+.contact-container {
+  grid-template-columns: 300px 340px;
+  column-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info {
+  display: grid;
+  row-gap: 1rem;
+}
+.contact-card {
+  background-color: var(--box-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.contact-card-icon {
+  font-size: 1.8rem;
+  color: var(--title-color);
+  margin-bottom: var(--mb025);
+}
+.contact-card-title,
+.contact-card-data {
+  font-size: var(--small-font-size);
+}
+.contact-card-title {
+  font-weight: var(--font-medium);
+}
+.contact-card-data {
+  display: block;
+  margin-bottom: var(--mb075);
+}
+.contact-button {
+  color: var(--skin-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.25rem;
+  cursor: pointer;
+}
+.contact-button-icon {
+  font-size: 1rem;
+  transition: 0.4s;
+}
+.contact-button:hover .contact-button-icon {
+  transform: translateX(0.25rem);
+}
+.input-container {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1.9rem;
+}
+.container.input {
+  width: 100%;
+  border: 2px solid var(--text-color);
+  background-color: transparent;
+  padding: 0.6rem 1.2rem;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+  letter-spacing: 0.5px;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: 0.4s;
+}
+textarea.input {
+  padding: 0.8rem 1.2rem;
+  min-height: 140px;
+  border-radius: 0.5rem;
+  resize: none;
+  font-family: var(--body-font);
+}
+.input-container label {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+  padding: 0 0.4rem;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: var(--font-medium);
+  pointer-events: none;
+  z-index: 15;
+  transition: 0.5s;
+}
+
+.input-container.textarea label {
+  top: 1rem;
+  transform: translateY(0);
+}
+.input-container span {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  transform: translateY(-50%);
+  font-size: var(--small-font-size);
+  padding: 0 0.4rem;
+  pointer-events: none;
+  z-index: var(--z-fixed);
+  color: transparent;
+}
+.input-container span::before,
+.input-container span::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  opacity: 0;
+  height: 5px;
+  background-color: var(--body-color);
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.4s;
+}
+.input-container span::before {
+  left: 50%;
+}
+.input-container span::after {
+  right: 50%;
+}
+.input-container.focus label {
+  top: 0;
+  transform: translateY(-50%);
+  left: 25px;
+  font-size: var(--smaller-font-size);
+}
+.input-container.focus span::before,
+.input-container.focus span::after {
+  width: 50%;
+  opacity: 1;
+}
+
+/* Darken contact card icons and buttons */
+.contact-card-icon,
+.contact-button,
+.input-container label,
+.button {
+  color: var(--title-color);
+}
+
+/* Darken input placeholders */
+.input::-webkit-input-placeholder,
+.textarea::-webkit-input-placeholder {
+  color: var(--text-color);
+}
+
+/* Darken textarea focus underline */
+.input-container.focus span::before,
+.input-container.focus span::after {
+  background-color: var(--title-color);
+}
+
+/* Media Queries */
+
+
+/* Theme Switcher Styles */
+.theme-switcher {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.theme-button {
+  background-color: var(--skin-color);
+  color: var(--title-color);
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.theme-button:hover {
+  transform: rotate(90deg);
+}
+
+.theme-options {
+  position: absolute;
+  right: 0;
+  top: 4rem;
+  background-color: #636E63;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.theme-switcher.active .theme-options {
+  display: flex;
+}
+
+.theme-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.theme-label::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--theme-preview);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .theme-label {
+  background-color: var(--skin-color);
+  color: var(--title-color);
+}
+
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brand {
+  text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.brand span {
+  color: #ffffff;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+
+/* ------------------- */
+/* COMPANY INFORMATION */
+/* ------------------- */
+
+.company-info {
+  background: #C3C9DD;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.company-info h3,
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+/* ------- */
+/* CONTACT */
+/* ------- */
+
+.contact {
+  background: #dcdfea;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* ---- */
+/* FORM */
+/* ---- */
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+}
+
+.contact form .full {
+  grid-column: 1 / 3;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 1em;
+  border: solid 1px #627EDC;
+  border-radius: 4px;
+}
+
+.contact form textarea {
+  resize: none;
+}
+
+.contact form button {
+  background: #627EDC;
+  border: 0;
+  color: #e4e4e4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #3952a3;
+  color: #ffffff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > * {
+    padding: 2em;
+  }
+
+  .company-info {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .contact {
+    border-radius: 0 4px 4px 0;
+  }
+
+  .company-info h3,
+  .company-info ul,
+  .brand {
+    text-align: left;
   }
 }

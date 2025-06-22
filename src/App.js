@@ -1,46 +1,40 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Luciano_Home from './pages/Luciano_Home';
-import Luciano_Contact from './pages/Luciano_Contact';
-import Luciano_Mentions_legal1 from './pages/Luciano_Mentions_legal1';
-import Luciano_portfolio from './pages/Luciano_portfolio';
-import Luciano_Services from './pages/Luciano_Services';
-
-
-
-
+import Index from './pages/Index';
+import FicheArtisan from './pages/FicheArtisan';
+import Categorie from './pages/Categorie';
+import Vue_404 from './pages/Vue_404';
+import Contact from "./pages/Contact";
+import Accessibilite from "./pages/Accessibilite";
+import Artisan_1 from "./pages/Artisan_1";
+import Artisan_2 from "./pages/Artisan_2";
+import Artisan_3 from "./pages/Artisan_3";
+import Artisan_4 from "./pages/Artisan_4";
+import Cookis from "./pages/Cookis";
+import Mentionlegale from "./pages/Mentionlegale";
+import Politique from "./pages/Politique"
 
 function App() {
   return (
    
     <div className="App">
-      <nav  className='navbar navbar-expand-lg navbar-light bg-light'>
-      <div className="container-fluid">
-      <a className="navbar-brand" href="#">JOHN DOE</a>
-      <div className="navBar">
-      <button className="navbar-toggler"  data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup" >
-    <div className="navbar-nav">
-      <a href='/' className='nav-link active card-text' aria-current="page">Home</a>
-      <a href='/Luciano_Portfolio' className='nav-link active card-text'>Portfolio</a>
-      <a href='/Luciano_Services' className='nav-link active card-text'>Services</a>
-      <a href='/Luciano_Contact' className='nav-link active card-text'>Contact</a>
-      <a href='Luciano_mentions_legal1' className='nav-link active card-text'>Mention legales</a>
-      </div>
-      </div>
-      </div>
-      </div>
-      </nav>
-     
+       
+       {/* gestion des routes dans indexjs*/}
       <Routes>
-      <Route path='/' element= {<Luciano_Home/>}></Route>
-      <Route path='/Luciano_Contact' element= {<Luciano_Contact/>}></Route>
-      <Route path='/Luciano_Mentions_legal1' element= {<Luciano_Mentions_legal1/>}></Route>
-      <Route path='/Luciano_Portfolio' element= {<Luciano_portfolio/>}></Route>
-      <Route path='/Luciano_Services' element= {<Luciano_Services/>}></Route>
+      <Route path='/' element= {<Index/>}></Route>
+      <Route path='/Categorie' element= {<Categorie/>}></Route>
+      <Route path='/FicheArtisan' element= {<FicheArtisan/>}></Route>
+      <Route path='/Vue_404' element= {<Vue_404/>}></Route>
+      <Route path='/Contact' element= {<Contact/>}></Route>
+      <Route path='/Accessibilite' element= {<Accessibilite/>}></Route>
+      <Route path='/Artisan_1' element= {<Artisan_1/>}></Route>
+      <Route path='/Artisan_2' element= {<Artisan_2/>}></Route>
+      <Route path='/Artisan_3' element= {<Artisan_3/>}></Route>
+      <Route path='/Artisan_4' element= {<Artisan_4/>}></Route>
+      <Route path='/Cookis' element= {<Cookis/>}></Route>
+      <Route path='/Mentionlegale' element= {<Mentionlegale/>}></Route>
+      <Route path='/Politique' element= {<Politique/>}></Route>
       </Routes>
     </div>
   );
