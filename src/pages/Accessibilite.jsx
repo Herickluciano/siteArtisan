@@ -27,13 +27,15 @@ return(
                     <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav">
-                            <a href='/' className='nav-link active card-text' aria-current="page">Acceuil</a>
-                            <a href='/Categorie' className='nav-link active card-text'>Choisir un artisan</a>
-                            <a href='/FicheArtisan' className='nav-link active card-text'>Nos artisans</a>
-                            <a href='/Vue_404' className='nav-link active card-text'>404</a>
-                            <a href='/Contact' className='nav-link active card-text'>Contact</a>
+                    <div className="menu-bar ">
+                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div className="navbar-nav">
+                                <a href='/' className='nav-link active card-text' aria-current="page">Acceuil</a>
+                                <a href='/Categorie' className='nav-link active card-text'>Choisir un artisan</a>
+                                <a href='/FicheArtisan' className='nav-link active card-text'>Nos artisans</a>
+                                <a href='/Vue_404' className='nav-link active card-text'>404</a>
+                                <a href='/Contact' className='nav-link active card-text'>Contact</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -50,19 +52,21 @@ return(
                     <h6>France_Contact : +33 (0)4 26 73 40 00</h6>
                 </div>
                 <div className="lesboutons">
-                    <a href="FicheArtisan.jsx"><button className="btn fw-bold card-text">Batiment</button></a>
-                    <a href="FicheArtisan.jsx"><button className="btn fw-bold card-text">Services</button></a>
-                    <a href="FicheArtisan.jsx"><button className="btn fw-bold card-text">Fabrication</button></a>
-                    <a href="FicheArtisan.jsx"><button className="btn fw-bold card-text">Alimentation</button></a>
+                    <div className="rech-2">
+                        <form className="">
+                            <input type="text" placeholder="Rechercher un artisan" className="text-input-2 text-info"></input>
+                            <button type="submit" className="btn-rech-2"><img src="/image/chercher.png" className="rechercher"></img></button>
+                        </form>
+                    </div>
+                    <div className="tout-btn">
+                        <a href="FicheArtisan"><button className="btn card-text">Batiment</button></a>
+                        <a href="FicheArtisan"><button className="btn  card-text">Services</button></a>
+                        <a href="FicheArtisan"><button className="btn  card-text">Fabrication</button></a>
+                        <a href="FicheArtisan"><button className="btn  card-text">Alimentation</button></a>
+                    </div>
                     <span className="text_couv3 text-danger">satisfaction apportee en 48h...</span>
                 </div>
             </div>
-        </div>
-        <div className="rech">
-            <form className="">
-                <input type="text" placeholder="Rechercher un artisan" className="text-input"></input>
-                <button type="submit" className="btn-rech"><img src="/image/chercher.png" className="rechercher"></img></button>
-            </form>
         </div>
     </header>
 

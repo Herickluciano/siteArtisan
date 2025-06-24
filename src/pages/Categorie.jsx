@@ -68,15 +68,9 @@ return(
                 </div>
             </div>
         </div>
-        <div className="rech">
-            <form className="">
-                <input type="text" placeholder="Rechercher un artisan" className="text-input"></input>
-                <button type="submit" className="btn-rech"><img src="/image/chercher.png" className="rechercher"></img></button>
-            </form>
-        </div>
     </header>
     <div className="titre-categ">
-        <h1 className="titre-bienvenue">Plateforme des artisans et services!</h1>
+        <h1 className="titre-bienvenue">Liste des artisans selon la catégorie!</h1>
     </div>
 
     <div className="categ-group">

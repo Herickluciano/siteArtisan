@@ -68,12 +68,6 @@ return(
                 </div>
             </div>
         </div>
-        <div className="rech">
-            <form className="">
-                <input type="text" placeholder="Rechercher un artisan" className="text-input"></input>
-                <button type="submit" className="btn-rech"><img src="/image/chercher.png" className="rechercher"></img></button>
-            </form>
-        </div>
     </header>
 
     <div className="corp-body">

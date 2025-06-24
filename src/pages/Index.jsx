@@ -68,75 +68,52 @@ return(
                 </div>
             </div>
         </div>
-        <div className="rech">
-            <form className="">
-                <input type="text" placeholder="Rechercher un artisan" className="text-input"></input>
-                <button type="submit" className="btn-rech"><img src="/image/chercher.png" className="rechercher"></img></button>
-            </form>
-        </div>
     </header>
-
     <div className="cardForm">
         <div className="corp-bienvenu">
-            <div className="bienvenue-group">
-                <div className="resp-bien">
-                    <h1 className="titre-bienvenue">Plateforme des artisans et services!</h1>
-                    <div className="bienvenu">
-                        <p className="text-bienvenu col-lg-4 col-md-4 col-sm-4">Lorem Ipsum est un générateur de faux textes aléatoires. fredt Vous choisissez le nombre de paragraphes, de mots ou de listes. Vous ferder.</p>
-                        <a className="navbar-brand" href="/"><img src='/image/logo.png' alt='logo' className="logo2 col-lg-4 col-md-4 col-sm-4"></img></a>
-                    </div>
-                </div>
-                <div className="detail-bienvenu">
-                    <div className="resp-titre detail-1 col-lg-4 col-md-4 col-sm-4">
-                        <strong className="resp-titre">Des experts a votre service</strong>
-                        <p className="resp-titre-1 text-detail-1 col-lg-7 col-md-7 col-sm-7">Lorem Ipsum est. fredt choisissez de paragraphes, de mots ou de listes hyu .</p>
-                        <a href="/Contact" className="btn-detail resp-titre"><button className="btn  card-text">Voir plus -»</button></a>
-                    </div>
-                    <div className="resp-avis detail-1 col-lg-4 col-md-4 col-sm-4">
-                        <strong>Avis des clients <br /><span><img src="/image/etoil.jpg" alt="etoil" className="etoil"></img></span> <span>9,3</span> <span className="petit">/10</span> <span>|</span> 265 avis</strong>
-                    </div>
-                    <div className="resp-titre-bien detail-1 col-lg-4 col-md-4 col-sm-4">
-                        <strong className="resp-text-bien">Pour le particulier et le proffessionnel</strong>
-                        <p className=" text-detail-2 col-lg-11 col-md-11 col-sm-11">Lorem Ipsum est. buy huior ghetru joikl hui bhu be fredt choisissez de paragraphes, de mots ou de listes hyu ipcert buiytr bghu.</p>
-                        <a href="/Contact" className="btn-detai resp-titre-btn"><button className=" btn  card-text">Voir plus -»</button></a>
-                    </div>
-                </div>
+            <div className="titre-categ">
+                <h1 className="titre-bienvenue">Liste des trois artisans du mois!</h1>
             </div>
             <div className="image-group">
-                <h2 className="titre-image">Galerie artisans et services!</h2>
                 <div className="detail-image">
-                    <div className="detail-1 resp-img-1 col-lg-4 col-md-4 col-sm-4">
-                        <a href='/FicheArtisan'><img src="image/construction.jpg" alt="construction" className="img-const"></img></a>
-                        <p className="text-img-1 fw-bold text-light">Batiment</p>
+                    <div className="resp-img-1 col-lg-4 col-md-4 col-sm-4">
+                        <a href='/Artisan_1'><img src="image/artisan.png" alt="artisan" className="img-const"></img></a>
+                        <p>Nom : Lorem Ipsum</p>
+                        <p>Note :
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                        </p>
+                        <p>Spécialité : Lorem Ipsum</p>
+                        <p>Localisation : Lorem Ipsum</p>
                     </div>
-                    <div className="detail-1 resp-img-2 col-lg-4 col-md-4 col-sm-4">
-                        <a href='/FicheArtisan'><img src="image/service_2.jpg" alt="service" className="img-const"></img></a>
-                        <p className="text-img-1 fw-bold text-light">Services</p>
+                    <div className="resp-img-2 col-lg-4 col-md-4 col-sm-4">
+                        <a href='/Artisan_1'><img src="image/artisan.png" alt="artisan" className="img-const"></img></a>
+                        <p>Nom :Lorem Ipsum</p>
+                        <p>Note :
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                        </p>
+                        <p>Spécialité : Lorem Ipsum</p>
+                        <p>Localisation : Lorem Ipsum</p>
                     </div>
-                    <div className="detail-1 resp-img-3 col-lg-4 col-md-4 col-sm-4">
-                        <a href='/FicheArtisan'><img src="image/fabrication2.jpg" alt="fabrication" className="img-const"></img></a>
-                        <p className="text-img-1 fw-bold text-light">Fabrication</p>
+                    <div className=" resp-img-3 col-lg-4 col-md-4 col-sm-4">
+                        <a href='/Artisan_1'><img src="image/artisan.png" alt="artisan" className="img-const"></img></a>
+                        <p>Nom : Lorem Ipsum</p>
+                        <p>Note :
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                            <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
+                        </p>
+                        <p>Spécialité : Lorem Ipsum</p>
+                        <p>Localisation : Lorem Ipsum</p>
                     </div>
-                    <div className="detail-1 resp-img-4 col-lg-4 col-md-4 col-sm-4">
-                        <a href='/FicheArtisan'><img src="image/aliment3.jpg" alt="alimentation" className="img-const"></img></a>
-                        <p className="text-img-1 fw-bold text-light">Alimentation</p>
-                    </div>
+
                 </div>
             </div>
         </div>
 
-    </div>
-    <div className="info">
-        <div className="detail-1 col-lg-4 col-md-4 col-sm-4">
-            <p className="text-detail-info col-lg-10 col-md-10 col-sm-10 text-light">Post haec Gallus Hierapolim profecturus ut expeditioni specie tenus adesset, Antiochensi plebi suppliciter obsecranti ut inediae dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas localibus subinde medetur aerumnis, disponi quicquam statuit vel ex provinciis alimenta transferri conterminis, sed consularem Syriae.</p>
-        </div>
-        <div className="detail-1 col-lg-4 col-md-4 col-sm-4">
-            <img src="/image/triangle.webp" alt="triange" className="triangle"></img>
-        </div>
-        <div className="detail-1 col-lg-4 col-md-4 col-sm-4">
-            <p className="text-detail-info resp-titre-nul col-lg-10 col-md-10 col-sm-10 text-light">Post haec Gallus Hierapolim profecturus ut expeditioni specie tenus adesset, Antiochensi plebi suppliciter obsecranti ut inediae dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas localibus subinde medetur aerumnis, disponi quicquam statuit vel ex provinciis alimenta transferri conterminis, sed consularem Syriae.</p>
-            <a href="/FicheArtisan" className="btn-detai-info"><button className="btn  card-text">Consulter nos offres -»</button></a>
-        </div>
     </div>
 
     <footer className="foot-body ">

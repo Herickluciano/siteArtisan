@@ -375,7 +375,14 @@ navBar {
 .titre-bienvenue{
    position: relative;
    left: 52vh;
-  top: -3vh;
+  top: -2vh;
+  font-size: 40px;
+  color: #0074c7;
+}
+.titre-bien{
+   position: relative;
+   left: 82vh;
+  top: -9vh;
   font-size: 40px;
   color: #0074c7;
 }
@@ -394,7 +401,9 @@ navBar {
 }
 .image-group{
    position: relative;
-   top: 40px;
+   top: -40px;
+   left: 250px;
+   text-align: justify;
 }
 .categ-group{
   display: flex;
@@ -421,6 +430,21 @@ navBar {
   height: 70px;
  
 }
+.image-group .img-const{
+  position:relative;
+  top: -4px;
+  left: -2px;
+  border-radius: 0!important;
+  width: 70px;
+  height: 70px;
+ 
+}
+.image-group .detail-1{
+  position:relative;
+  top: -84px;
+  left: 288px;
+  text-align: justify;
+}
 .categ-person{
   text-align: justify;
   width: 120px;
@@ -439,6 +463,7 @@ navBar {
 .bienvenue-group{
    position: relative;
    top: 40px;
+   left: -220px;
 }
 .detail-bienvenu{
    display: flex;
@@ -482,8 +507,10 @@ navBar {
 }
 .etoil2{
   position: relative;
-  
   width: 20px;
+}
+.titre-categ{
+  color: #0074c7;
 }
 .petit{
   font-size: 10px;
@@ -736,8 +763,14 @@ form .send-btn {
 .navbar-nav {
   position: relative;
   left: -106px;
-  top: -66px;
+  top: -26px;
   padding: inherit!important;
+}
+.image-group{
+   position: relative;
+   top: 18px;
+   left: 20px;
+   text-align: justify;
 }
 .rech {
   position:relative;
@@ -926,11 +959,28 @@ width: 0;
 }
 .titre-bienvenue{
    position: relative;
-   left: 376px;
-  top: -13px;
+   left: 36vh;
+  top: 8vh;
   font-size: 20px;
   color: #0074c7;
+  text-align: justify;
 }
+.image-group .img-const{
+  position:relative;
+  top: -4px;
+  left: -2px;
+  border-radius: 0!important;
+  width: 70px;
+  height: 70px;
+ 
+}
+.image-group .detail-1{
+  position:relative;
+  top: -84px;
+  left: 288px;
+  text-align: justify;
+}
+
 .text-bienvenu{
    position: relative;
    text-align: justify;
@@ -1021,26 +1071,28 @@ width: 0;
 }
 .resp-img-1{
   position: relative;
-  top: -240px;
-  left: 190px;
+  top: -30px;
+  left: 280px!important;
+  text-align: justify;
+  width: 850px;
 }
 .resp-img-2{
-  position: relative;
-   width: 20px!important;
-  top: -240px;
-  left: 330px;
+  position: absolute;
+   width: 350px!important;
+  top: 250px;
+  left: 280px;
+  width: 850px!important;
+  text-align: justify;
 }
 .resp-img-3{
-  position: relative;
-  top: -120px;
-  left: 90px;
+  position: absolute;
+   width: 350px!important;
+  top: 500px;
+  left: 280px;
+  width: 850px!important;
+  text-align: justify;
+  
 }
-.resp-img-4{
-   position: relative;
-  top: -120px;
-  left: 230px;
-}
-
 .titre-image{
    position: relative;
    left: 158px;
@@ -1129,6 +1181,7 @@ footer  {
   position: relative;
   width: 100%;
   text-align: center!important;
+  top: 515px;
   }
   
   .foot-body .titre-foot {

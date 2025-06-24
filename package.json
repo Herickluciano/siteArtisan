@@ -907,7 +907,7 @@
   "bugs": {
     "url": "https://github.com/Herickluciano/SiteTrouveTonArtisan/issues"
   },
-  "homepage": "https://github.com/Herickluciano/SiteTrouveTonArtisan#readme",
+  "homepage": "",
   "browserslist": {
     "production": [
       ">0.2%",

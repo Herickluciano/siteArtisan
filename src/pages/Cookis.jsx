@@ -1,7 +1,7 @@
 const Cookis = () => {
 return(
 <div>
-    <header className="header-body">
+   <header className="header-body">
         <div className='btn_group'>
             <div className="dropdown btn2">
                 <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,14 +68,7 @@ return(
                 </div>
             </div>
         </div>
-        <div className="rech">
-            <form className="">
-                <input type="text" placeholder="Rechercher un artisan" className="text-input"></input>
-                <button type="submit" className="btn-rech"><img src="/image/chercher.png" className="rechercher"></img></button>
-            </form>
-        </div>
     </header>
-
     <div className="corp-body">
         <div className="page-const container row shadow p-3 mb-5 bg-body rounded col-lg-8 col-md-8 col-sm-8">
             <h6 className="text-404 text-danger">« La page que vous avez demandé est en cour de realisation … »</h6>

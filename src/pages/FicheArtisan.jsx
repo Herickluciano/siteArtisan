@@ -1,7 +1,7 @@
 const FicheArtisan = () => {
 return(
 <div>
-    <header className="header-body">
+<header className="header-body">
         <div className='btn_group'>
             <div className="dropdown btn2">
                 <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,202 +68,34 @@ return(
                 </div>
             </div>
         </div>
-        <div className="rech">
-            <form className="">
-                <input type="text" placeholder="Rechercher un artisan" className="text-input"></input>
-                <button type="submit" className="btn-rech"><img src="/image/chercher.png" className="rechercher"></img></button>
-            </form>
-        </div>
     </header>
+      <div className="bienvenue-group">
+                <div className="resp-bien">
+                    <h1 className="titre-bien">A propos!</h1>
+                    <div className="bienvenu">
+                        <p className="text-bienvenu col-lg-4 col-md-4 col-sm-4">Lorem Ipsum est un générateur de faux textes aléatoires. fredt Vous choisissez le nombre de paragraphes, de mots ou de listes. Vous ferder.</p>
+                        <a className="navbar-brand" href="/"><img src='/image/logo.png' alt='logo' className="logo2 col-lg-4 col-md-4 col-sm-4"></img></a>
+                    </div>
+                </div>
+                <div className="detail-bienvenu">
+                    <div className="resp-titre detail-1 col-lg-4 col-md-4 col-sm-4">
+                        <strong className="resp-titre">Des experts a votre service</strong>
+                        <p className="resp-titre-1 text-detail-1 col-lg-7 col-md-7 col-sm-7">Lorem Ipsum est. fredt choisissez de paragraphes, de mots ou de listes hyu .</p>
+                        <a href="/Contact" className="btn-detail resp-titre"><button className="btn  card-text">Nous contacter -»</button></a>
+                    </div>
+                    <div className="resp-avis detail-1 col-lg-4 col-md-4 col-sm-4">
+                        <strong>Avis des clients <br /><span><img src="/image/etoil.jpg" alt="etoil" className="etoil"></img></span> <span>9,3</span> <span className="petit">/10</span> <span>|</span> 265 avis</strong>
+                    </div>
+                    <div className="resp-titre-bien detail-1 col-lg-4 col-md-4 col-sm-4">
+                        <strong className="resp-text-bien">Pour le particulier et le proffessionnel</strong>
+                        <p className=" text-detail-2 col-lg-11 col-md-11 col-sm-11">Lorem Ipsum est. buy huior ghetru joikl hui bhu be fredt choisissez de paragraphes, de mots ou de listes hyu ipcert buiytr bghu.</p>
+                        <a href="/Contact" className="btn-detai resp-titre-btn"><button className=" btn  card-text">Nous contacter -»</button></a>
+                    </div>
+                </div>
+            </div>
 
-    <div className="titre-categ">
-        <h1 className="titre-bienvenue">Toius les artisans et services!</h1>
-    </div>
-
-    <div className="categ-group">
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <a href='/Artisan_1'><img src="image/artisan.png" alt="artisan" className="img-const"></img></a>
-            <p>Nom : : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_2'><img src="image/aliment3.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_3'><img src="image/construction.jpg" alt="cosrt" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation: Lorem Ipsum </p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_4'><img src="image/fabrication2.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-    </div>
-
-    <div className="categ-group">
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <a href='/Artisan_1'><img src="image/artisan.png" alt="artisan" className="img-const"></img></a>
-            <p>Nom : : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_2'><img src="image/aliment3.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_3'><img src="image/construction.jpg" alt="cosrt" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation: Lorem Ipsum </p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_4'><img src="image/fabrication2.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-    </div>
-    <div className="categ-group">
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <a href='/Artisan_1'><img src="image/artisan.png" alt="artisan" className="img-const"></img></a>
-            <p>Nom : : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_2'><img src="image/aliment3.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_3'><img src="image/construction.jpg" alt="cosrt" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation: Lorem Ipsum </p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_4'><img src="image/fabrication2.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-    </div>
-    <div className="categ-group">
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <a href='/Artisan_1'><img src="image/artisan.png" alt="artisan" className="img-const"></img></a>
-            <p>Nom : : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_2'><img src="image/aliment3.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_3'><img src="image/construction.jpg" alt="cosrt" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum</p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation: Lorem Ipsum </p>
-        </div>
-        <div className="categ-person col-lg-3 col-md-3 col-sm-3">
-            <p><a href='/Artisan_4'><img src="image/fabrication2.jpg" alt="alimentation" className="img-const"></img></a></p>
-            <p>Nom : Lorem Ipsum </p>
-            <p>Note :
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-                <img src="/image/etoil.jpg" alt="etoil" className="etoil2"></img>
-            </p>
-            <p>Spécialité : Lorem Ipsum</p>
-            <p>Localisation : Lorem Ipsum</p>
-        </div>
+            <div className="titre-categ">
+        <h1 className="titre-categ">Tous les artisans et services!</h1>
     </div>
     <div className="categ-group">
         <div className="categ-person col-lg-3 col-md-3 col-sm-3">

@@ -68,12 +68,6 @@ return(
                 </div>
             </div>
         </div>
-        <div className="rech">
-            <form className="">
-                <input type="text" placeholder="Rechercher un artisan" className="text-input"></input>
-                <button type="submit" className="btn-rech"><img src="/image/chercher.png" className="rechercher"></img></button>
-            </form>
-        </div>
     </header>
 
     <div className="cardForm">
@@ -142,19 +136,6 @@ return(
 
         </div>
     </div>
-    <div className="info">
-        <div className="detail-1 col-lg-4 col-md-4 col-sm-4">
-            <p className="text-detail-info col-lg-10 col-md-10 col-sm-10 text-light">Post haec Gallus Hierapolim profecturus ut expeditioni specie tenus adesset, Antiochensi plebi suppliciter obsecranti ut inediae dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas localibus subinde medetur aerumnis, disponi quicquam statuit vel ex provinciis alimenta transferri conterminis, sed consularem Syriae.</p>
-        </div>
-        <div className="detail-1 col-lg-4 col-md-4 col-sm-4">
-            <img src="/image/triangle.webp" alt="triange" className="triangle"></img>
-        </div>
-        <div className="detail-1 col-lg-4 col-md-4 col-sm-4">
-            <p className="text-detail-info resp-titre col-lg-10 col-md-10 col-sm-10 text-light">Post haec Gallus Hierapolim profecturus ut expeditioni specie tenus adesset, Antiochensi plebi suppliciter obsecranti ut inediae dispelleret metum, quae per multas difficilisque causas adfore iam sperabatur, non ut mos est principibus, quorum diffusa potestas localibus subinde medetur aerumnis, disponi quicquam statuit vel ex provinciis alimenta transferri conterminis, sed consularem Syriae.</p>
-            <a href="/FicheArtisan" className="btn-detai-info"><button className="btn  card-text">Consulter nos offres -»</button></a>
-        </div>
-    </div>
-
     <footer className="foot-body ">
         <di className="titre-group">
             <div className="resp-foot-1 titre-foot">
